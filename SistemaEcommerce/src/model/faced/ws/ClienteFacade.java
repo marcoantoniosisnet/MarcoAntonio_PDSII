@@ -15,6 +15,7 @@ public class ClienteFacade {
 public List<Cliente> getCliente(){
 		
 	
-	return Arrays.asList(new Cliente(1, "Marco Antonio","marcoantoniosisnet@hotmail.com"));
+	return Arrays.asList(new Cliente(1, "Marco Antonio","marcoantoniosisnet@hotmail.com"),
+			new Cliente (2, "Eliseu ","eliseumcd@gmail.com"));
 	}
 }
