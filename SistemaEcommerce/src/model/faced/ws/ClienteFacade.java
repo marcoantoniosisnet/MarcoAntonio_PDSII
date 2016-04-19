@@ -19,13 +19,13 @@ public List<Cliente> getCliente(){
 			new Cliente (2, "Eliseu ","eliseumcd@gmail.com"));
 	}
 	
-	@WebMethod(operationName="getClienteParametro")
+	@WebMethod(operationName="getClientesParametro")
 	public List<Cliente>getCliente(Cliente cliente){
 		if (cliente.getCodigo() ==1){
-			return Arrays.asList(new Cliente(1, "Izabela quer parametro","izabela@gmail.com"));
+			return Arrays.asList(new Cliente(1, "Neguim quer parametro","izabela@gmail.com"));
 		
 		}else{
-	return Arrays.asList(new Cliente(1, "Izabela nao quer parametro","izabela@gmail.com"));
+	return Arrays.asList(new Cliente(1, "Neguim nao quer parametro","izabela@gmail.com"));
 		
 		}
 		
